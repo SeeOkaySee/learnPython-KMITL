@@ -1,0 +1,5 @@
+cha = str(input("Please enter a character: "))
+cha1 = ord(cha)
+y = "u" + format(cha1, "04x")
+print("unicode of",cha ,end=' ')
+print("is", y)
