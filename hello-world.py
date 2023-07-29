@@ -1,1 +1,3 @@
-print("hello world");
+cha = input("Please enter a character: ")
+a = ord(cha)
+print(a)
